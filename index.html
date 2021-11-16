@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Máfia das Batatas | Brasília - DF</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="models">
+        <div class="potato-item">
+            <a href="">
+                <div class="potato-item--img"><img src="" /></div>
+                <div class="potato-item--add">+</div>
+            </a>
+            <div class="potato-item--price">R$ --</div>
+            <div class="potato-item--name">--</div>
+            <div class="potato-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <div class="menu-teste">
+            <h1><a href="#" class="voltar-site">Máfia das Batatas</a> | Menu</h1>
+        </div>
+        <div class="potato-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Produtos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div id="finalizar">
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="potatoWindowArea">
+        <div class="potatoWindowBody">
+            <div class="potatoInfo--cancelMobileButton">Voltar</div>
+            <div class="potatoBig">
+                <img src="" />
+            </div>
+            <div class="potatoInfo">
+                <h1>--</h1>
+                <div class="potatoInfo--desc">--</div>
+                <div class="potatoInfo--pricearea">
+                    <div class="potatoInfo--sector">Preço</div>
+                    <div class="potatoInfo--price">
+                        <div class="potatoInfo--actualPrice">R$ --</div>
+                        <div class="potatoInfo--qtarea">
+                            <button class="potatoInfo--qtmenos">-</button>
+                            <div class="potatoInfo--qt">1</div>
+                            <button class="potatoInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="potatoInfo--addButton">Adicionar ao carrinho</div>
+                <div class="potatoInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="potatos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script type="text/javascript">
+    function abrirJanela(pagina, largura, altura) {
+        var esquerda = (screen.width - largura)/2;
+        var topo = (screen.height - altura)/2;
+            minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
+    }
+    </script>
+</body>
+</html>
